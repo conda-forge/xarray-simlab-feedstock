@@ -20,7 +20,7 @@ requirements:
     - setuptools
   run:
     - python
-    - attrs >= 18.1.0
+    - attrs >=18.1.0
     - numpy
     - xarray >=0.10.0
 

@@ -1,4 +1,4 @@
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 package:
   name: xarray-simlab
@@ -7,7 +7,7 @@ package:
 source:
   fn: xarray-simlab-{{ version }}.tar.gz
   url: https://github.com/benbovy/xarray-simlab/archive/{{ version }}.tar.gz
-  sha256: 23b11b2fbc18101a5b5abb1fcbd5a3e8b7120443f8003152880320386beb10e1
+  sha256: a12d75872033b0f4fecc8ee674546747b2215d2447d74b947f1986a3460554cb
 
 build:
   number: 0
@@ -20,13 +20,13 @@ requirements:
     - setuptools
   run:
     - python
+    - attrs >= 18.1.0
     - numpy
-    - xarray >=0.8.0
+    - xarray >=0.10.0
 
 test:
   imports:
     - xsimlab
-    - xsimlab.variable
 
 about:
   home: https://github.com/benbovy/xarray-simlab

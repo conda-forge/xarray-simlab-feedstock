@@ -20,13 +20,13 @@ requirements:
     - setuptools
   run:
     - python
+    - attrs >=18.1.0
     - numpy
-    - xarray >=0.8.0
+    - xarray >=0.10.0
 
 test:
   imports:
     - xsimlab
-    - xsimlab.variable
 
 about:
   home: https://github.com/benbovy/xarray-simlab

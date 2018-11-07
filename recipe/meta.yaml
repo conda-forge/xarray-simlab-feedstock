@@ -11,13 +11,15 @@ source:
 
 build:
   number: 1
-  script: python setup.py install --single-version-externally-managed --record record.txt
   noarch: python
+  script: "{{ PYTHON }} -m pip install . -vvv"
 
 requirements:
   build:
     - python >=3
     - setuptools
+  host:
+    - pip
   run:
     - python >=3
     - attrs >=18.1.0

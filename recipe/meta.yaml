@@ -10,6 +10,7 @@ source:
   sha256: cc26ffe3a528c9f3a6cac9170d492a321b4e6eac34a06b4df1577a91961dc40b
 
 build:
+  noarch: python
   number: 0
   skip: True  # [py2k]
   script: python setup.py install --single-version-externally-managed --record record.txt

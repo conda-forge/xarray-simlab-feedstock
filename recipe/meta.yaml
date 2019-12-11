@@ -7,7 +7,7 @@ package:
 source:
   fn: xarray-simlab-{{ version }}.tar.gz
   url: https://github.com/benbovy/xarray-simlab/archive/{{ version }}.tar.gz
-  sha256: 27d8775783e47fb4c419e7270da5aea4a7bbaf5dd741c7f58d4e2469b9937627
+  sha256: b94454eb963c70f5767de93ff73d2c912924d84d5851ef1a94953db9f9df9257
 
 build:
   number: 1

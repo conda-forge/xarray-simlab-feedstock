@@ -22,7 +22,9 @@ requirements:
     - python >=3
     - attrs >=18.1.0
     - dask
+    - python-graphviz
     - numpy
+    - tqdm
     - xarray >=0.10.0,<0.14.1
     - zarr
 

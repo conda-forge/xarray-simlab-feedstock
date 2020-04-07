@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: xarray-simlab
@@ -7,12 +7,12 @@ package:
 source:
   fn: xarray-simlab-{{ version }}.tar.gz
   url: https://github.com/benbovy/xarray-simlab/archive/{{ version }}.tar.gz
-  sha256: b94454eb963c70f5767de93ff73d2c912924d84d5851ef1a94953db9f9df9257
+  sha256: 22f77782161f816057a3deae747ae334b1a6603acf252226a0316dbe4dd51d07
 
 build:
-  number: 1
+  number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
   host:
@@ -32,7 +32,7 @@ about:
   home: https://github.com/benbovy/xarray-simlab
   license: BSD-3-Clause
   license_file: LICENSE
-  summary: 'xarray extension for computer model simulations.'
+  summary: xarray extension for computer model simulations.
 
 extra:
   recipe-maintainers:

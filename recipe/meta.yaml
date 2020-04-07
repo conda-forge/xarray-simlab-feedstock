@@ -21,8 +21,10 @@ requirements:
   run:
     - python >=3
     - attrs >=18.1.0
+    - dask
     - numpy
     - xarray >=0.10.0,<0.14.1
+    - zarr
 
 test:
   imports:

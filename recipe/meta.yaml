@@ -1,4 +1,4 @@
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: xarray-simlab
@@ -7,7 +7,7 @@ package:
 source:
   fn: xarray-simlab-{{ version }}.tar.gz
   url: https://github.com/benbovy/xarray-simlab/archive/{{ version }}.tar.gz
-  sha256: 22f77782161f816057a3deae747ae334b1a6603acf252226a0316dbe4dd51d07
+  sha256: 890c97062b197ae350d5ea1c59dd142631d8c2e238550909dc91641b314f55e4
 
 build:
   number: 0

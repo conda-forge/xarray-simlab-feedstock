@@ -1,13 +1,13 @@
-{% set version = "0.4.1" %}
+{% set name = "xarray-simlab" %}
+{% set version = "0.5.0" %}
 
 package:
-  name: xarray-simlab
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: xarray-simlab-{{ version }}.tar.gz
-  url: https://github.com/benbovy/xarray-simlab/archive/{{ version }}.tar.gz
-  sha256: 890c97062b197ae350d5ea1c59dd142631d8c2e238550909dc91641b314f55e4
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 92de9fbd55e045b0d0eacbc7334a86108ecd5376973b1ed20b600bbc6521c2d6
 
 build:
   number: 0

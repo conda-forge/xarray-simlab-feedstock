@@ -5,11 +5,9 @@ Home: https://github.com/benbovy/xarray-simlab
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xarray-simlab-feedstock/blob/master/LICENSE.txt)
 
 Summary: xarray extension for computer model simulations.
-
-
 
 Current build status
 ====================

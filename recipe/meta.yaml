@@ -10,7 +10,7 @@ source:
   sha256: 92de9fbd55e045b0d0eacbc7334a86108ecd5376973b1ed20b600bbc6521c2d6
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - attrs >=18.1.0
+    - attrs >=19.2
     - dask
     - python-graphviz
     - numpy
